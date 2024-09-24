@@ -1,0 +1,55 @@
+.sportEvent {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 5px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    /* transition: transform 0.3s ease-in-out; */
+    align-items: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .sportEvent:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 80px rgba(52, 152, 219, 0.8), 0 0 15px rgba(52, 152, 219, 0.6);
+  }
+  
+  .sportEvent img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .details {
+    padding: 15px;
+  }
+  
+  .details h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .details p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .eventButton {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .eventButton:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  

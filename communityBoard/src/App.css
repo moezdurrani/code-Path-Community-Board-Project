@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+
+
+ body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.topPicture {
+  width: 100%;
+}
+
+.heading {
+  font-family: "Exo 2", sans-serif;
+  font-size: 5vw;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  background: linear-gradient(90deg, #ff7f5f, #2f4709); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+
+
+  padding: 20px 40px; 
+  border-radius: 20px; 
+  background-color: #feb47b; 
+  display: inline-block; 
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 
+              0 -5px 10px rgba(0, 0, 0, 0.2), 
+              5px 0 10px rgba(0, 0, 0, 0.2),
+              -5px 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; 
+}
